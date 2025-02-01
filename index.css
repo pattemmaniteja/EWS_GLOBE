@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 1)),
+    url("https://www.griet.ac.in/images/ICF/eng_ws_5.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav * {
+  margin-top: 0px;
+  backdrop-filter: blur(2px);
+  backdrop-filter: contrast();
+}
+.navbar-brand {
+  color: #f37107;
+  font-weight: 600;
+  margin-left: 5%;
+  font-size: 2.1rem !important;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.navbar-brand span {
+  color: #f14d07 !important;
+}
+.navbar-brand:hover {
+  color: #f55e00 !important;
+}
+
+.navbar-nav > li {
+  margin-left: 0px;
+  margin-right: 12px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.nav-link {
+  font-weight: lighter !important;
+}
+.nav-link:hover {
+  color: #f0eae6 !important;
+}
+a.active {
+  font-weight: bold !important;
+}
+.navbar-nav a.active:hover {
+  color: #dfece1 !important;
+  scale: 102%;
+}
+
+.txt-heading {
+  color: rgb(206, 207, 206);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.txt-heading h1 {
+  color: #fff;
+}
+.txt-heading a {
+  color: #fff;
+}
+.cardGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 30px 0px 0px 0px;
+  width: 50%;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 2px solid rgba(245, 222, 179, 0.815) !important;
+  box-shadow: rgba(92, 153, 172, 0.151) 5px 5px 20px;
+  color: rgb(255, 255, 255) !important;
+  backdrop-filter: blur(5px) !important;
+}
+.card-header {
+  backdrop-filter: blur(5px) !important;
+  background-color: rgb(63, 63, 63, 0.5) !important;
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 90%;
+  }
+  .inf_txt .GlassImg {
+    border-radius: 18px;
+    transform: translateX(20%) scale(80%);
+    width: 110%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.302),
+        rgb(0, 0, 0)
+      ),
+      url("https://www.griet.ac.in/images/ICF/eng_ws_5.jpg") !important;
+    background-size: 250%;
+  }
+}
+P {
+  text-align: center;
+  margin: 1px 30px 20px 30px;
+}
+.btn-secondary {
+  background-color: rgb(65, 65, 65) !important;
+  border: black 2px !important;
+  box-shadow: rgb(15, 15, 15) 2px 2px 12px;
+  transition: 2s ease;
+}
+.btn-secondary:hover {
+  background-color: rgb(44, 43, 43) !important;
+}
+.inf_txt {
+  color: white;
+  border-radius: 20px;
+  margin: 20px;
+  backdrop-filter: blur(10px) brightness(110%);
+  backdrop-filter: contrast(30px);
+  border: 1px solid rgba(255, 255, 255, 0.199);
+  box-shadow: rgb(0, 0, 0) 2px 2px 22px;
+  box-shadow: rgba(143, 143, 143, 0.212) 1px 2px 22px inset;
+}
+.inf_txt h1 {
+  text-align: left;
+  margin: 50px;
+}
+.inf_txt p {
+  text-align: left;
+  margin: 50px;
+}
+.inf_txt a {
+  margin: 20px 10px 30px 30px;
+}
+.inf_txt a {
+  width: 15%;
+  min-width: 80px;
+  transform: translateX(-15%);
+}
+.our-ids {
+  text-align: left;
+  margin: 50px;
+}
+table {
+  margin-top: 1%;
+  width: 40%;
+  border-collapse: collapse;
+  border: 3px solid white;
+}
+
+th {
+  color: white;
+  border: 1px solid rgb(160, 158, 158) !important;
+  border-collapse: collapse;
+  padding-left: 1%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+td {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(168, 168, 168) !important;
+  border-collapse: collapse;
+  padding-left: 2%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.GlassImg {
+  border-radius: 13px 73px 13px 73px;
+  /* border-radius: 13px; */
+  box-shadow: inset 1px 1px 50px rgba(0, 0, 0, 0.671),
+    1px 1px 23px rgba(0, 0, 0, 0.548);
+  border-top: 1px solid rgba(255, 255, 255, 0.664);
+  border-bottom: 1px solid rgba(253, 253, 253, 0.671);
+  overflow: hidden;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  float: right;
+}
+.GlassImg img {
+  position: relative;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.774);
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+  z-index: -1;
+}
+.GlassImg:hover img {
+  transform: scale(107%);
+}
